@@ -51,7 +51,7 @@
     elementoHora.innerHTML = hora;
     elementoMinutos.innerHTML = minutos;
     elementoSegundos.innerHTML = segundos;
-    elementoAmpm.innerHTML = ampm;
+    elementoAmpm.textContent = ampm;
 
     setInterval(actualizarDatos, 1000);
 })();
